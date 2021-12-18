@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class GetAccount {
+public class getAccount {
 	Scanner menuInput = new Scanner(System.in);
 
 	public void getAccountType(Account acc) {
