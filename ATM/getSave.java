@@ -37,7 +37,10 @@ public class getSave {
 				default:
 					System.out.println("\nInvalid Choice.");
 				}
-			} 
+			} catch (InputMismatchException e) {
+				System.out.println("\nInvalid Choice.");
+				menuInput.next();
+			}
 		}
 	}
 }
